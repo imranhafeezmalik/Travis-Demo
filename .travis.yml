@@ -2,6 +2,12 @@ os: osx
 osx_image: xcode10.2
 
 language: bash
+
+git:
+  depth: false
+  
+before_cache:
+  - brew cleanup
         
 install:
   - whoami
