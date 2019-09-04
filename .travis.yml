@@ -10,6 +10,7 @@ install:
           
           
 script:
+  - ls
   - chmod +x hello.sh
   - ./hello.sh
   
